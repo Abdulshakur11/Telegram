@@ -1,0 +1,2232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram</title>
+  <link rel="shortcut icon" href="./images/telegram-icon.svg">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4 column-1">
+
+        <div class="search-wrapper">
+          <form action="https://echo.htmlacadey.ru" method="POST">
+            <input class="search-place" type="search" name="seach" placeholder="Поиск">
+          </form>
+        </div>
+
+        <div class="col-2 telegram-menu">
+          <input class="checkbox" type="checkbox" id="check">
+          <label class="checkbtn" for="check">
+            <svg class="search-icon" height="21px" viewBox="0 -53 384 384" width="19px"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"
+                fill="#fff" />
+              <path
+                d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"
+                fill="#fff" />
+              <path
+                d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"
+                fill="#fff" /></svg>
+          </label>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img class="menu-item-img" src="./images/lang-img.jpg" alt="lang-img" width="60" height="60">
+              <div class="menu-item-icon-wrapper">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13px" height="13px"
+                  viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve">
+
+                  <g id="bookmark-outline">
+                    <path d="M357,0H102C73.95,0,51,22.95,51,51v408l178.5-76.5L408,459V51C408,22.95,385.05,0,357,0z M357,382.5l-127.5-56.1
+                    L102,382.5V51h255V382.5z" fill="#fff" />
+                  </g>
+                </svg>
+              </div>
+              <label for="check" class="btn-close btn-close-white button-close" aria-label="Close">
+              </label>
+            </li>
+
+            <li class="menu-item-dropdown menu-item">
+              <div class="dropdown dropdown-wrapper">
+                <p class="btn  dropdown-toggle dropdown-btn" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Абдушукур
+                  <p class="dropdown-number">+998 91 117 07 21</p>
+                </p>
+
+                <img class="btn-arrowdown" src="./images/down-arrow.png" alt="down-arrow" width="15" height="15">
+
+                <ul class="dropdown-menu dropdown-list" aria-labelledby="dropdownMenuButton1">
+                  <li class="dropdown-item-item">
+                    <a class="dropdown-item dropdown-item-link" href="#">
+                      <img class="dropdown-item-img" src="./images/lang-img.jpg" alt="lang-img" width="40" height="40">
+                      <p class="dropdown-item-title">Абдушукур</p>
+                    </a>
+                  </li>
+                  <li class="dropdown-item-item">
+                    <a class="dropdown-item dropdown-item-link" href="#">
+                      <img class="dropdown-item-user-img" src="./images/user.svg" alt="user" width="25" height="25">
+                      <p class="dropdown-item-title">Добавить аккаунт</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="menu-btm-list-wrapper">
+              <ul class="menu-btm-list">
+
+                <li class="menu-btm-item">
+                  <a class="menu-btm-link" href="#">
+                    <img class="menu-btm-link-img" src="./images/add-contacts-icon.svg" alt="add-contacts-icon"
+                      width="28" height="28">
+                    <p class="dropdown-item-title">Создать группу</p>
+                  </a>
+                </li>
+
+                <li class="menu-btm-item">
+                  <a class="menu-btm-link" href="#">
+                    <img class="menu-btm-link-img" src="./images/megaphone.svg" alt="add-contacts-icon" width="27"
+                      height="27">
+                    <p class="dropdown-item-title">Создать канал</p>
+                  </a>
+                </li>
+
+                <li class="menu-btm-item">
+                  <a class="menu-btm-link" href="#">
+                    <img class="menu-btm-link-img" src="./images/person.svg" alt="add-contacts-icon" width="22"
+                      height="22">
+                    <p class="dropdown-item-title">Контакты</p>
+                  </a>
+                </li>
+
+                <li class="menu-btm-item">
+                  <a class="menu-btm-link" href="#">
+                    <img class="menu-btm-link-img" src="./images/call.svg" alt="add-contacts-icon" width="22"
+                      height="22">
+                    <p class="dropdown-item-title">Звонки</p>
+                  </a>
+                </li>
+
+                <li class="menu-btm-item">
+                  <a class="menu-btm-link" href="#">
+                    <img class="menu-btm-link-img" src="./images/settings.svg" alt="add-contacts-icon" width="23"
+                      height="23">
+                    <p class="dropdown-item-title">Настройки</p>
+                  </a>
+                </li>
+
+                <li class="menu-btm-item">
+                  <a class="menu-btm-link" href="#">
+                    <img class="menu-btm-link-img menu-btm-link-img-moon" src="./images/moon.svg"
+                      alt="add-contacts-icon" width="20" height="20">
+                    <p class="dropdown-item-title">Ночной режим</p>
+
+                    <div class="form-check form-switch switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                      <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="menu-btm-wrapper-text">
+                  <a class="wrapper-text-link wrapper-text-link-one" href="https://desktop.telegram.org/">
+                    Telegram Desktop</a>
+                  <a class="wrapper-text-link" href="https://desktop.telegram.org/changelog?setln=ru">Версия 3.0.1
+                    x64</a>
+                  <a class="wrapper-text-link" href="#"> О программе</a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+
+
+        </div>
+
+        <!-- CONTACTS LIST -->
+
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-item-link" href="#">
+              <img class="contacts-item-user-img" src="./images/web-dasturlash.ntjpg.jpg" alt="Najot t'alim logo"
+                width="50" height="50">
+              <div class="contacts-item-text-wrapper">
+                <p class="contacts-item-name">Web dasturlash standart N10 | 09:00 | #nt070</p>
+                <p class="contacts-item-text">Web dasturlash standart N10 | Source:Видео, <span
+                    class="contacts-item-text-part">GitHub issues</span></p>
+              </div>
+
+              <div class="contact-item-meesega-time-wrapper">
+                <span class="contact-item-meesega-time">
+                  10:07
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="contacts-item">
+            <a class="contacts-item-link" href="#">
+              <img class="contacts-item-user-img" src="./images/web-dasturlash.jpg" alt="Najot t'alim logo" width="48"
+                height="48">
+              <div class="contacts-item-text-wrapper">
+                <p class="contacts-item-name">Web dasturlash standart N10 | Source</p>
+                <p class="contacts-item-text">Видео,<span class="contacts-item-text-part">GitHub issues</span></p>
+              </div>
+
+              <div class="contact-item-meesega-time-wrapper">
+                <span class="contact-item-meesega-time">
+                  10:50
+                </span>
+                <span class="badge rounded-pill bg-danger contact-item-meesega-unread">
+                  2
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="contacts-item">
+            <a class="contacts-item-link" href="#">
+              <img class="contacts-item-user-img" src="./images/trees.jpg" alt="Najot t'alim logo" width="48"
+                height="48">
+              <div class="contacts-item-text-wrapper">
+                <p class="contacts-item-name">• A N V A R K H A N I •</p>
+                <p class="contacts-item-text">Вы подписались на канал
+                </p>
+              </div>
+
+              <div class="contact-item-meesega-time-wrapper">
+                <span class="contact-item-meesega-time">
+                  11:56
+                </span>
+                <span class="badge rounded-pill bg-danger contact-item-meesega-unread">
+                  120
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="contacts-item">
+            <a class="contacts-item-link" href="#">
+              <img class="contacts-item-user-img" src="./images/figma-logo.jpg" alt="Figma logo" width="48" height="48">
+              <div class="contacts-item-text-wrapper">
+                <p class="contacts-item-name">Фигма — Макеты для верстки</p>
+                <p class="contacts-item-text"><span class="contacts-item-text-part">NameShop — большой макет
+                    фэшн-сайта</span></p>
+              </div>
+
+              <div class="contact-item-meesega-time-wrapper">
+                <span class="contact-item-meesega-time">
+                  19:49
+                </span>
+                <span class="badge rounded-pill bg-danger contact-item-meesega-unread">
+                  18
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="contacts-item">
+            <a class="contacts-item-link" href="#">
+              <img class="contacts-item-user-img" src="./images/news-logo.jpg" alt="New logo" width="48" height="48">
+              <div class="contacts-item-text-wrapper">
+                <p class="contacts-item-name">Новости</p>
+                <p class="contacts-item-text">Видео,<span class="contacts-item-text-part">В Москве на Ленинградском
+                    проспекте грузовик уп...</span></p>
+              </div>
+
+              <div class="contact-item-meesega-time-wrapper">
+                <span class="contact-item-meesega-time">
+                  10:50
+                </span>
+                <span class="badge rounded-pill bg-danger contact-item-meesega-unread">
+                  2
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="contacts-item">
+            <a class="contacts-item-link" href="#">
+              <img class="contacts-item-user-img" src="./images/figma-logo.jpg" alt="Figma logo" width="48" height="48">
+              <div class="contacts-item-text-wrapper">
+                <p class="contacts-item-name">Фигма — Макеты для верстки</p>
+                <p class="contacts-item-text"><span class="contacts-item-text-part">NameShop — большой макет
+                    фэшн-сайта</span></p>
+              </div>
+
+              <div class="contact-item-meesega-time-wrapper">
+                <span class="contact-item-meesega-time">
+                  19:49
+                </span>
+                <span class="badge rounded-pill bg-danger contact-item-meesega-unread">
+                  18
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="contacts-item">
+            <a class="contacts-item-link" href="#">
+              <img class="contacts-item-user-img" src="./images/web-dasturlash.jpg" alt="Najot t'alim logo" width="48"
+                height="48">
+              <div class="contacts-item-text-wrapper">
+                <p class="contacts-item-name">Web dasturlash standart N10 | Source</p>
+                <p class="contacts-item-text">Видео,<span class="contacts-item-text-part">GitHub issues</span></p>
+              </div>
+
+              <div class="contact-item-meesega-time-wrapper">
+                <span class="contact-item-meesega-time">
+                  10:50
+                </span>
+                <span class="badge rounded-pill bg-danger contact-item-meesega-unread">
+                  2
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="contacts-item">
+            <a class="contacts-item-link" href="#">
+              <img class="contacts-item-user-img" src="./images/news-logo.jpg" alt="New logo" width="48" height="48">
+              <div class="contacts-item-text-wrapper">
+                <p class="contacts-item-name">Новости</p>
+                <p class="contacts-item-text">Видео,<span class="contacts-item-text-part">В Москве на Ленинградском
+                    проспекте грузовик уп...</span></p>
+              </div>
+
+              <div class="contact-item-meesega-time-wrapper">
+                <span class="contact-item-meesega-time">
+                  10:50
+                </span>
+                <span class="badge rounded-pill bg-danger contact-item-meesega-unread">
+                  2
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="contacts-item">
+            <a class="contacts-item-link" href="#">
+              <img class="contacts-item-user-img" src="./images/figma-logo.jpg" alt="Figma logo" width="48" height="48">
+              <div class="contacts-item-text-wrapper">
+                <p class="contacts-item-name">Фигма — Макеты для верстки</p>
+                <p class="contacts-item-text"><span class="contacts-item-text-part">NameShop — большой макет
+                    фэшн-сайта</span></p>
+              </div>
+
+              <div class="contact-item-meesega-time-wrapper">
+                <span class="contact-item-meesega-time">
+                  19:49
+                </span>
+                <span class="badge rounded-pill bg-danger contact-item-meesega-unread">
+                  18
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="contacts-item">
+            <a class="contacts-item-link" href="#">
+              <img class="contacts-item-user-img" src="./images/news-logo.jpg" alt="New logo" width="48" height="48">
+              <div class="contacts-item-text-wrapper">
+                <p class="contacts-item-name">Новости</p>
+                <p class="contacts-item-text">Видео,<span class="contacts-item-text-part">В Москве на Ленинградском
+                    проспекте грузовик уп...</span></p>
+              </div>
+
+              <div class="contact-item-meesega-time-wrapper">
+                <span class="contact-item-meesega-time">
+                  10:50
+                </span>
+                <span class="badge rounded-pill bg-danger contact-item-meesega-unread">
+                  2
+                </span>
+              </div>
+            </a>
+          </li>
+
+
+          <li class="contacts-item">
+            <a class="contacts-item-link" href="#">
+              <img class="contacts-item-user-img" src="./images/trees.jpg" alt="Najot t'alim logo" width="48"
+                height="48">
+              <div class="contacts-item-text-wrapper">
+                <p class="contacts-item-name">• A N V A R K H A N I •</p>
+                <p class="contacts-item-text">Вы подписались на канал
+                </p>
+              </div>
+
+              <div class="contact-item-meesega-time-wrapper">
+                <span class="contact-item-meesega-time">
+                  11:56
+                </span>
+                <span class="badge rounded-pill bg-danger contact-item-meesega-unread">
+                  120
+                </span>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="col-5 chatting-block">
+        <div class="chat-header">
+          <div class="header-left">
+            <div class="dropdown">
+              <p class="btn btn-secondary dropdown-toggle chat-dropdown" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Web dasturlash standart N10 | 09:00 | #nt070
+              </p>
+
+              <img class="chat-header-icon" src="./images/magnifying-glass.svg" alt="" width="17" height="17">
+
+              <img class="chat-header-icon-two" src="./images/more.svg" alt="more-icon" width="17" height="17">
+              <div class="dropdown-menu dropdown-chat-menu" aria-labelledby="dropdownMenuButton1">
+                <div class="menu-header">
+                  <h2 class="menu-title">Информация о группе</h2>
+                  <div class="menu-header-img-wrapper">
+                    <img class="menu-img" src="./images/more.svg" alt="dots" width="20" height="20">
+                    <label class="btn-close btn-close-white" aria-label="Close">
+                    </label>
+                  </div>
+                </div>
+
+                <div class="menu-group-name">
+                  <img class="group-img" src="./images/web-dasturlash.ntjpg.jpg" alt="Najot talim" width="70"
+                    height="70">
+
+                  <div class="group-text-wrapper">
+                    <p class="group-name">Web dasturlash standart N10 | 09:00 |...</p>
+                    <a href="#" class="group-member">28 участников</a>
+                  </div>
+                </div>
+
+                <span class="menu-line"></span>
+
+                <div class="menu-info">
+                  <img class="info-icon" src="./images/info.svg" alt="info-icon" width="20" height="20">
+                  <p class="info-text">Dushanba-chorshanba-juma
+                    Ochildi: 16.06.2021
+                    Ustoz: Abdulatifxon Anvarxonov
+                    <span class="info-btm-text">Информация</span>
+                  </p>
+                </div>
+
+                <div class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-icon" src="./images/bell.svg" alt="info-icon" width="20" height="20">
+                    <p class="info-text">Уведомления</p>
+                    <div class="form-check form-switch switch-place">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked="">
+                      <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+                  </a>
+                </div>
+              </div>
+
+              <span class="menu-line"></span>
+
+              <ul class="file-list">
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-icon" src="./images/galery.svg" alt="info-icon" width="20" height="20">
+                    <p class="info-text">135 фотографий</p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-icon" src="./images/video-camera.svg" alt="info-icon" width="20" height="20">
+                    <p class="info-text">59 видео</p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-icon" src="./images/file.svg" alt="info-icon" width="20" height="20">
+                    <p class="info-text">376 файлов</p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-icon info-icon-link" src="./images/link.svg" alt="info-icon" width="20"
+                      height="20">
+                    <p class="info-text">356 ссылок</p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-icon" src="./images/mic.svg" alt="info-icon" width="20" height="20">
+                    <p class="info-text">19 голосовых сообщений</p>
+                  </a>
+                </li>
+
+                <li><span class="menu-line"></span></li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-icon info-icon-addcontact" src="./images/add-contacts-icon.svg" alt="info-icon"
+                      width="20" height="20">
+                    <p class="info-text info-text-contact">28 участников</p>
+                    <img class="magnifire-icon" src="./images/magnifying-glass.svg" alt="magnifying-glass" width="20"
+                      height="20">
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/trees.jpg" alt="info-icon" width="50" height="50">
+                    <p class=" info-user-name">Abdullatifxon aka <br>
+                      <span class="info-text-online">в сети</span>
+                    </p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/zoir-aka.jpg" alt="info-icon" width="50" height="50">
+                    <p class=" info-user-name">Ali Zairov (Patron) <br>
+                      <span class="info-text-online">в сети</span>
+                    </p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/zafra-aka.jpg" alt="info-icon" width="50" height="50">
+                    <p class=" info-user-name">Zafar aka <br>
+                      <span class="info-text-online">в сети</span>
+                    </p>
+                  </a>
+                </li>
+
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/odil-aka.jpg" alt="info-icon" width="50" height="50">
+                    <p class=" info-user-name">Odil aka <br>
+                      <span class="info-text-ofline">был(а) недавно</span>
+                    </p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/lang-img.jpg" alt="info-icon" width="50" height="50">
+                    <p class=" info-user-name">Абдушукур <br>
+                      <span class="info-text-ofline">был(а) недавно</span>
+                    </p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/rozivoy aka.jpg" alt="rozivoy aka" width="50" height="50">
+                    <p class=" info-user-name">Rozivoy aka <br>
+                      <span class="info-text-ofline">был(а) недавно</span>
+                    </p>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="dropdown">
+              <p class="btn btn-secondary dropdown-toggle chat-dropdown members-number" type="button"
+                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                28 участников
+              </p>
+
+              <ul class="dropdown-menu chat-btm-dropdown" aria-labelledby="dropdownMenuButton1">
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/trees.jpg" alt="info-icon" width="50" height="50">
+                    <p class=" info-user-name">Abdullatifxon aka <br>
+                      <span class="info-text-online">в сети</span>
+                    </p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/zoir-aka.jpg" alt="info-icon" width="50" height="50">
+                    <p class=" info-user-name">Ali Zairov (Patron) <br>
+                      <span class="info-text-online">в сети</span>
+                    </p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/zafra-aka.jpg" alt="info-icon" width="50" height="50">
+                    <p class=" info-user-name">Zafar aka <br>
+                      <span class="info-text-online">в сети</span>
+                    </p>
+                  </a>
+                </li>
+
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/odil-aka.jpg" alt="info-icon" width="50" height="50">
+                    <p class=" info-user-name">Odil aka <br>
+                      <span class="info-text-ofline">был(а) недавно</span>
+                    </p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/lang-img.jpg" alt="info-icon" width="50" height="50">
+                    <p class=" info-user-name">Абдушукур <br>
+                      <span class="info-text-ofline">был(а) недавно</span>
+                    </p>
+                  </a>
+                </li>
+
+                <li class="menu-info menu-info-item">
+                  <a class="menu-info-link" href="#">
+                    <img class="info-user-img" src="./images/rozivoy aka.jpg" alt="rozivoy aka" width="50" height="50">
+                    <p class=" info-user-name">Rozivoy aka <br>
+                      <span class="info-text-ofline">был(а) недавно</span>
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="messege-send-place-wrapper">
+        <div class="messege-come">
+          <img class="messege-come-img info-user-img" src="./images/rozivoy aka.jpg" alt="rozivoy aka" width="38"
+            height="38">
+          <p class="messege-come-text">
+            <span class="messege-come-user-name">Rozivoy aka</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum nesciunt.
+            <span class="triangle"></span>
+            <span class="messege-time">10:20</span>
+          </p>
+        </div>
+        <div class="messege-come">
+          <img class="messege-come-img info-user-img" src="./images/odil-aka.jpg" alt="odil-aka" width="38" height="38">
+          <p class="messege-come-text">
+            <span class="messege-come-user-name">Odil aka</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum Lorem, ipsum dolor sit
+            amet consectetur
+            <span class="triangle"></span>
+            <span class="messege-time">10:25</span>
+          </p>
+        </div>
+        <div class="messege-outgoing">
+          <img class="messege-come-img info-user-img" src="./images/lang-img.jpg" alt="odil-aka" width="38" height="38">
+          <p class="messege-come-text messege-outgoing-text">
+            <span class="messege-come-user-name messege-outgoing-user-name">Абдушукур</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum Lorem, ipsum dolor sit
+            amet consectetur
+            <span class="messege-outgoing-triangle"></span>
+            <span class="messege-time">10:35</span>
+          </p>
+        </div>
+        <div class="messege-come">
+          <img class="messege-come-img info-user-img" src="./images/zafra-aka.jpg" alt="zafar-aka" width="38"
+            height="38">
+          <p class="messege-come-text">
+            <span class="messege-come-user-name messege-outgoing-user-name">Zafar aka</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum Lorem, ipsum dolor sit
+            amet consectetur
+            <span class="triangle"></span>
+            <span class="messege-time">10:37</span>
+          </p>
+        </div>
+        <div class="messege-come">
+          <img class="messege-come-img info-user-img" src="./images/rozivoy aka.jpg" alt="rozivoy aka" width="38"
+            height="38">
+          <p class="messege-come-text">
+            <span class="messege-come-user-name">Rozivoy aka</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum nesciunt.
+            <span class="triangle"></span>
+            <span class="messege-time">10:40</span>
+          </p>
+        </div>
+        <div class="messege-outgoing">
+          <img class="messege-come-img info-user-img" src="./images/lang-img.jpg" alt="odil-aka" width="38" height="38">
+          <p class="messege-come-text messege-outgoing-text">
+            <span class="messege-come-user-name messege-outgoing-user-name">Абдушукур</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum Lorem, ipsum dolor sit
+            amet consectetur
+            <span class="messege-outgoing-triangle"></span>
+            <span class="messege-time">10:42</span>
+          </p>
+        </div>
+        <div class="messege-come">
+          <img class="messege-come-img info-user-img" src="./images/zafra-aka.jpg" alt="zafar-aka" width="38"
+            height="38">
+          <p class="messege-come-text">
+            <span class="messege-come-user-name messege-outgoing-user-name">Zafar aka</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum Lorem, ipsum dolor sit
+            amet consectetur
+            <span class="triangle"></span>
+            <span class="messege-time">10:45</span>
+          </p>
+        </div>
+        <div class="messege-come">
+          <img class="messege-come-img info-user-img" src="./images/odil-aka.jpg" alt="odil-aka" width="38" height="38">
+          <p class="messege-come-text">
+            <span class="messege-come-user-name">Odil aka</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum Lorem, ipsum dolor sit
+            amet consectetur
+            <span class="triangle"></span>
+            <span class="messege-time">10:50</span>
+          </p>
+        </div>
+        <div class="messege-outgoing">
+          <img class="messege-come-img info-user-img" src="./images/lang-img.jpg" alt="odil-aka" width="38" height="38">
+          <p class="messege-come-text messege-outgoing-text">
+            <span class="messege-come-user-name messege-outgoing-user-name">Абдушукур</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum Lorem, ipsum dolor sit
+            amet consectetur
+            <span class="messege-outgoing-triangle"></span>
+            <span class="messege-time">10:42</span>
+          </p>
+        </div>
+        <div class="messege-come">
+          <img class="messege-come-img info-user-img" src="./images/zafra-aka.jpg" alt="zafar-aka" width="38"
+            height="38">
+          <p class="messege-come-text">
+            <span class="messege-come-user-name messege-outgoing-user-name">Zafar aka</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum Lorem, ipsum dolor sit
+            amet consectetur
+            <span class="triangle"></span>
+            <span class="messege-time">10:45</span>
+          </p>
+        </div>
+
+        <div class="messege-come">
+          <img class="messege-come-img info-user-img" src="./images/trees.jpg" alt="Abdullatifxon aka" width="38"
+            height="38">
+          <p class="messege-come-text">
+            <span class="messege-come-user-name messege-come-user-name-col">Abdullatifxon aka</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum Lorem, ipsum dolor sit
+            amet consectetur
+            <span class="triangle"></span>
+            <span class="messege-time">10:50</span>
+          </p>
+        </div>
+        <div class="messege-outgoing">
+          <img class="messege-come-img info-user-img" src="./images/lang-img.jpg" alt="odil-aka" width="38" height="38">
+          <p class="messege-come-text messege-outgoing-text">
+            <span class="messege-come-user-name messege-outgoing-user-name">Абдушукур</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum Lorem, ipsum dolor sit
+            amet consectetur
+            <span class="messege-outgoing-triangle"></span>
+            <span class="messege-time">10:42</span>
+          </p>
+        </div>
+        <div class="messege-come">
+          <img class="messege-come-img info-user-img" src="./images/rozivoy aka.jpg" alt="rozivoy aka" width="38"
+            height="38">
+          <p class="messege-come-text">
+            <span class="messege-come-user-name">Rozivoy aka</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum nesciunt.
+            <span class="triangle"></span>
+            <span class="messege-time">10:40</span>
+          </p>
+        </div>
+        <div class="messege-come">
+          <img class="messege-come-img info-user-img" src="./images/trees.jpg" alt="Abdullatifxon aka" width="38"
+            height="38">
+          <p class="messege-come-text">
+            <span class="messege-come-user-name messege-come-user-name-col">Abdullatifxon aka</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolore rerum Lorem, ipsum dolor sit
+            amet consectetur
+            <span class="triangle"></span>
+            <span class="messege-time">10:50</span>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="row messege-send-place">
+        <form action="https://echo.htmlacademy.ru" method="POST">
+          <img src="./images/paper-clip-icon.svg" alt="paper-clip-icon" width="20" height="20">
+          <input class="send-messege-input" type="text" name="send_messege" placeholder="Написать сообщение...">
+
+          <img class="input-icons" src="./images/happy.svg" alt="happy-smile" width="20" height="20">
+
+          <img class="input-mic-icon" src="./images/mic.svg" alt="mic" width="20" height="20">
+        </form>
+      </div>
+    </div>
+
+    <div class="col-3 emoji-block">
+      <div class="emoji-header">
+        <a href="#" class="emoji-header-text emoji-header-text-ative">емодзи</a>
+        <a href="#" class="emoji-header-text">стиккеры</a>
+        <a href="#" class="emoji-header-text">gif</a>
+      </div>
+
+      <div class="emoji-smiles d-flex align-items-center flex-wrap">
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/love-hearts.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/smiley.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+
+        <a class="text-decoration-none" href="#">
+          <img class="smile-img" src="./images/face-with-tears-of-joy.png" alt="love-hearts" width="20" height="20">
+        </a>
+      </div>
+      <div class="emoji-footer d-flex align-items-center">
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+              C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+        </svg>
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+              C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+        </svg>
+
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+              C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+        </svg>
+
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+              C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+          </g>
+        </svg>
+
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+              C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+          </g>
+        </svg>
+
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+              C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+        </svg>
+
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+              C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+        </svg>
+
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+        </svg>
+
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+        </svg>
+
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+        </svg>
+
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+        </svg>
+
+        <svg class="happy-smlie" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="20px" y="20px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480
+			C132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="176" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <circle cx="336" cy="176" r="32" fill="#fff" />
+            </g>
+          </g>
+          <g>
+            <g>
+              <path
+                d="M368,256c0,61.856-50.144,112-112,112s-112-50.144-112-112h-32c0,79.529,64.471,144,144,144s144-64.471,144-144H368z"
+                fill="#fff" />
+            </g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

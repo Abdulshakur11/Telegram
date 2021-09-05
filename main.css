@@ -892,6 +892,7 @@ body {
   padding-bottom: 27px;
   padding-left: 25px;
   padding-right: 25px;
+  border-bottom: 2px solid transparent;
 }
 
 .emoji-header-text:hover {
